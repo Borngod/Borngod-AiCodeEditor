@@ -118,7 +118,6 @@ const IDE = () => {
       }
     } else {
       setOutput(`Code execution for ${language} is not supported in the browser. 
-      \nTo run ${language} code, you would need a backend service or a local development environment.
       \nFor now, you can write and analyze ${language} code, but not execute it here.`);
     }
   };
